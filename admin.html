@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300&family=Krub:ital,wght@0,400;1,700&family=Lato:wght@400;700;900&family=Noto+Sans:wght@400;600;700&family=Prata&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body class="contenedor">
+
+    <h1 class="centrar-texto">Agregá <span>Productos</span> y Administralos!</h1>
+
+    <div class="layout-principal">
+
+        <form action="" class="form__admin">
+            <div class="form__zone">
+                <label for="codigo" class="form__label">Código</label>
+                <input type="text" class="form__input" id="codigo" placeholder="Agregá el Código">
+            </div>
+            <div class="form__zone">
+                <label for="categoria" class="form__label">Categoría</label>
+                <input type="text"  class="form__input" id="categoria" placeholder="Agregá la Categoría">
+            </div>
+            <div class="form__zone">
+                <label for="descripcion" class="form__label">Descripción</label>
+                <input type="text"  class="form__input" id="descripcion" placeholder="Agregá la Descripción">
+            </div>
+            <div class="form__zone">
+                <label for="diametro" class="form__label">Diámetro (Ø) </label>
+                <input type="text" class="form__input" id="diametro" placeholder="Agregá el Diámetro">
+            </div>
+            <div class="form__zone">
+                <label for="mm" class="form__label">Milímetros (mm) </label>
+                <input type="number" class="form__input" id="mm" min="1" placeholder="Agregá los Milímetros">
+            </div>
+            <div class="form__zone">
+                <label for="rollo" class="form__label">Rollo (mts) </label>
+                <input type="text" class="form__input" id="rollo" placeholder="Agregá el Rollo">
+            </div>
+            <input type="button" value="Agregar Producto" class="form__agregar">
+        </form>
+
+        <div class="productos__admin">
+            <h3 class="centrar-texto">Tus Productos</h3>
+            <!-- <p class="centrar-texto">Acá aparecerán los productos que agregues.</p> -->
+            <div class="productos__agregados">
+                <label for=""><span>Código:</span> {Código}</label>
+                <label for=""><span>Categoría:</span> {Categoría}</label>
+                <label for=""><span>Descripción:</span> {Descripción} </label>
+                <label for=""><span>Diámetro (Ø):</span> {Diámetro} </label>
+                <label for=""><span>Milímetros (mm):</span> {Milímetros} </label>
+                <label for=""><span>Rollo (mts):</span> {Rollo} </label>
+
+                <div class="productos__botones">
+                    <input type="button" value="Editar" class="productos__editar">
+                    <input type="button" value="Eliminar" class="productos__eliminar">
+                </div>
+            </div>
+            <div class="productos__agregados">
+                <label for=""><span>Código:</span> {Código}</label>
+                <label for=""><span>Categoría:</span> {Categoría}</label>
+                <label for=""><span>Descripción:</span> {Descripción} </label>
+                <label for=""><span>Diámetro (Ø):</span> {Diámetro} </label>
+                <label for=""><span>Milímetros (mm):</span> {Milímetros} </label>
+                <label for=""><span>Rollo (mts):</span> {Rollo} </label>
+
+                <div class="productos__botones">
+                    <input type="button" value="Editar" class="productos__editar">
+                    <input type="button" value="Eliminar" class="productos__eliminar">
+                </div>
+            </div>
+            <div class="productos__agregados">
+                <label for=""><span>Código:</span> {Código}</label>
+                <label for=""><span>Categoría:</span> {Categoría}</label>
+                <label for=""><span>Descripción:</span> {Descripción} </label>
+                <label for=""><span>Diámetro (Ø):</span> {Diámetro} </label>
+                <label for=""><span>Milímetros (mm):</span> {Milímetros} </label>
+                <label for=""><span>Rollo (mts):</span> {Rollo} </label>
+    
+                <div class="productos__botones">
+                    <input type="button" value="Editar" class="productos__editar">
+                    <input type="button" value="Eliminar" class="productos__eliminar">
+                </div>
+            </div>
+            
+            <div class="productos__agregados">
+                <label for=""><span>Código:</span> {Código}</label>
+                <label for=""><span>Categoría:</span> {Categoría}</label>
+                <label for=""><span>Descripción:</span> {Descripción} </label>
+                <label for=""><span>Diámetro (Ø):</span> {Diámetro} </label>
+                <label for=""><span>Milímetros (mm):</span> {Milímetros} </label>
+                <label for=""><span>Rollo (mts):</span> {Rollo} </label>
+    
+                <div class="productos__botones">
+                    <input type="button" value="Editar" class="productos__editar">
+                    <input type="button" value="Eliminar" class="productos__eliminar">
+                </div>
+            </div>
+            
+        </div>
+
+    </div> <!--.layout-principal-->
+    
+</body>
+
+</html>

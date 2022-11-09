@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300&family=Krub:ital,wght@0,400;1,700&family=Lato:wght@400;700;900&family=Noto+Sans:wght@400;600;700&family=Prata&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Document</title>
+</head>
+
+<body class="contenedor">
+
+    <h1 class="">Armá tu <span>pedido</span>, presioná en <span>Enviar </span>y listo!</h1>
+
+    <div class="busqueda-ubicar">
+        <input type="text" placeholder="Buscar producto..." class="busqueda-producto">
+    </div>
+    
+    <main class="contenedor">
+
+        <div class="layout-principal">
+
+            <div class="grilla">
+
+                    <div class="producto">
+                        <p><span class="texto-negrita">Código: </span>EF3210</p>
+                        <input type="button" value="Quiero este producto" class="boton-producto">
+                    </div>
+                    <div class="producto">
+                        <p><span class="texto-negrita">Código: </span>EF3210</p>
+                        <input type="button" value="Quiero este producto" class="boton-producto">
+                    </div>
+                    <div class="producto">
+                        <p><span class="texto-negrita">Código: </span>EF3210</p>
+                        <input type="button" value="Quiero este producto" class="boton-producto">
+                    </div>
+                    <div class="producto">
+                        <p><span class="texto-negrita">Código: </span>EF3210</p>
+                        <input type="button" value="Quiero este producto" class="boton-producto">
+                    </div>
+                    <div class="producto">
+                        <p><span class="texto-negrita">Código: </span>EF3210</p>
+                        <input type="button" value="Quiero este producto" class="boton-producto">
+                    </div>
+
+                    <div class="producto">
+                        <p><span class="texto-negrita">Código: </span>EF3210</p>
+                        <input type="button" value="Quiero este producto" class="boton-producto">
+                    </div>
+                
+                </div> <!--.grilla-->
+    
+                <div class="pedido">
+                    <!-- <h3 class="pedido__titulo centrar-texto">Tu pedido</h3> -->
+                    <input type="button" class="pedido__enviar" value="Enviar Pedido">
+                    <div class="anuncio">
+                        <p>Acá aparecerán los productos que listes.</p>
+                    </div>
+                </div>
+        </div> <!--.principal-->
+
+    </main>
+
+    <section class="modal">
+        <div class="modal__container">
+            <h3 class="modal__codigo">Código</h3>
+            <label for="cantidad" class="modal__label">Cantidad </label>
+            <input type="number" min="1" id="cantidad" class="modal__cantidad">
+            <input type="button" value="Agregar" class="modal__add">
+            <input type="button" value="X" class="modal__close texto-negrita">
+        </div>
+    </section>
+
+    <script src="js/index.js"></script>  
+</body>
+</html>
